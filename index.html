@@ -1,18 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Idle Screen Button</title>
+    <title>uapWPE</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button onclick="confirmIdleScreen()">Open Idle Screen</button>
-
-    <script>
-        function confirmIdleScreen() {
-            if (confirm("Are you sure you want to open the idle screen?")) {
-                window.location.href = "idlescreen://";
-            }
-        }
-    </script>
+    <button onclick="window.location.href = 'idlescreen://'">Open Idle Screen</button>
 </body>
 </html>
