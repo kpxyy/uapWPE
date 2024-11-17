@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Idle Screen Button</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button onclick="confirmIdleScreen()">Open Idle Screen</button>
+
+    <script>
+        function confirmIdleScreen() {
+            if (confirm("Are you sure you want to open the idle screen?")) {
+                window.location.href = "idlescreen://";
+            }
+        }
+    </script>
+</body>
+</html>
